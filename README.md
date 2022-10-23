@@ -25,7 +25,7 @@ Go to project directory
 
 Run the server locally.
 ```bash
-    npm serve
+    npm start
 ```
 
 ## Authors
