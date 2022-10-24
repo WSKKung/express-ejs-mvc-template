@@ -1,4 +1,4 @@
-import HomepageView from '../view/homepage.js'
+import HomepageView from '../view/homepage_data.js'
 import { echoName } from '../model/name_echo.js'
 
 export function renderHomepage(req, res) {

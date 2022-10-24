@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { renderHomepage } from "../controller/homepage.js"
+import { renderHomepage } from "../controller/homepage_controller.js"
 import multer from "multer"
 
 const upload = multer()
