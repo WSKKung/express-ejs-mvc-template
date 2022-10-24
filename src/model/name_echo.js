@@ -1,3 +1,5 @@
+import { randomFromArray } from '../util/rand'
+
 const promptQuote = 'Please tell me your name.'
 const randomQuoteTemplate = [
 	'Hello, _!',
@@ -8,8 +10,7 @@ const randomQuoteTemplate = [
 ]
 
 function getRandomQuoteTemplate() {
-	let idx = Math.floor(Math.random() * randomQuoteTemplate.length)
-	return randomQuoteTemplate[idx]
+	return randomFromArray(randomQuoteTemplate)
 }
 
 function isValidName(name) {
