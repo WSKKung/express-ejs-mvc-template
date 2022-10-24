@@ -28,5 +28,7 @@ Run the server locally.
     npm start
 ```
 
+You should now be able to access the server on http://localhost:4000 with your browser.
+
 ## Authors
 - Sahachai Plangrit
