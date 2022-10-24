@@ -1,4 +1,4 @@
-import { randomFromArray } from '../util/rand'
+import { randomFromArray } from '../util/rand.js'
 
 const promptQuote = 'Please tell me your name.'
 const randomQuoteTemplate = [
